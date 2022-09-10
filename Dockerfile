@@ -11,6 +11,4 @@ EXPOSE 7777
 
 WORKDIR /server/
 
-RUN chmod +x entrypoint.sh
-
 ENTRYPOINT ["/entrypoint.sh"]
