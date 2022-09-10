@@ -11,7 +11,7 @@ else
     unzip -o tModLoader.zip
     rm -r tModLoader.zip
 
-    curl -LO https://github.com/callumhauber/tmodloader1.4-docker/releases/download/v1.0.0/tmodloader1.4-docker-master.zip
+    curl -LO https://github.com/callumhauber/tmodloader1.4-docker/releases/download/v1.0.1/tmodloader1.4-docker-master.zip
     unzip -o tmodloader1.4-docker-master.zip
     rm -r tmodloader1.4-docker-master.zip
     mkdir ModPacks/
