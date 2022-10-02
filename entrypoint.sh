@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VERSION=2022.08.54.4
+VERSION=2022.09.47.4
 
 if [ -e ModPacks/*/Mods/enabled.json ]; then
   ./startserver.sh
@@ -11,7 +11,7 @@ else
     unzip -o tModLoader.zip
     rm -r tModLoader.zip
 
-    curl -LO https://github.com/callumhauber/tmodloader1.4-docker/releases/download/v1.0.2/tmodloader1.4-docker-master.zip
+    curl -LO https://github.com/callumhauber/tmodloader1.4-docker/releases/download/v1.0.3/tmodloader1.4-docker-master.zip
     unzip -o tmodloader1.4-docker-master.zip
     rm -r tmodloader1.4-docker-master.zip
     mkdir ModPacks/
